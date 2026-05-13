@@ -206,7 +206,7 @@ finalFramework/
 
 ## Trazabilidad en Git
 
-El flujo de ramas, nombres de integrantes y convención de mensajes de commit se documenta en [`docs/VERSIONAMIENTO_Y_RAMAS.md`](docs/VERSIONAMIENTO_Y_RAMAS.md). El historial en `develop` debe mostrar aportes **repartidos** entre los cuatro desarrolladores.
+El flujo de ramas, validación cruzada entre desarrolladores antes de integrar en `develop`, nombres de integrantes y convención de mensajes de commit se documenta en [`docs/VERSIONAMIENTO_Y_RAMAS.md`](docs/VERSIONAMIENTO_Y_RAMAS.md). El historial en `develop` debe mostrar aportes **repartidos** entre los cuatro desarrolladores.
 
 ## Licencia
 
