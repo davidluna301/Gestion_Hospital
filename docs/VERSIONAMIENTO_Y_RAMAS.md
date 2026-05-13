@@ -81,12 +81,14 @@ En GitHub: **Pull Request** con base **`develop`** (no `main`). Revisión del eq
 git remote add origin https://github.com/davidluna301/Gestion_Hospital.git
 ```
 
-- Primera vez: publicar `develop` y las ramas `feature/*` según lo acordado:
+- Primera vez: publicar `develop` y las ramas `feature/*` de evidencia (no borrar en remoto):
 
 ```bash
 git push -u origin develop
-git push -u origin feature/dev1-documentacion
+git push -u origin feature/dev1-docs feature/dev2-accounts feature/dev3-consultas feature/dev4-infra-ui
 ```
+
+Ramas de ejemplo usadas en este proyecto: `feature/dev1-docs`, `feature/dev2-accounts`, `feature/dev3-consultas`, `feature/dev4-infra-ui`. Cada una apunta a un tramo del historial para mostrar el aporte por rol; `develop` lleva la línea temporal completa (incluido el commit final de empaquetado `__init__.py` si aplica).
 
 ## Resumen visual del flujo
 
